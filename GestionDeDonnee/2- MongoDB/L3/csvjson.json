@@ -1,0 +1,106 @@
+[
+  {
+    "code livre": 10,
+    "titre": "TP MERISE",
+    "domaine": "informatique",
+    "prix": 200,
+    "auteur": "Auteur 1",
+    "langue": "anglais"
+  },
+  {
+    "code livre": 20,
+    "titre": "COURS REACT",
+    "domaine": "informatique",
+    "prix": 500,
+    "auteur": "Auteur 1",
+    "langue": "français"
+  },
+  {
+    "code livre": 30,
+    "titre": "TP CSS3",
+    "domaine": "informatique",
+    "prix": 650,
+    "auteur": "Auteur 3",
+    "langue": "anglais"
+  },
+  {
+    "code livre": 40,
+    "titre": "EXERCICES ORACLES",
+    "domaine": "informatique",
+    "prix": 700,
+    "auteur": "Auteur 4",
+    "langue": "français"
+  },
+  {
+    "code livre": 50,
+    "titre": "COURS JAVA",
+    "domaine": "informatique",
+    "prix": 280,
+    "auteur": "Auteur5",
+    "langue": "anglais"
+  },
+  {
+    "code livre": 60,
+    "titre": "Histoire de la terre",
+    "domaine": "astronomie",
+    "prix": 300,
+    "auteur": "Auteur6",
+    "langue": "français"
+  },
+  {
+    "code livre": 70,
+    "titre": "Vivre sur la lune",
+    "domaine": "astronomie",
+    "prix": 600,
+    "auteur": "Auteur7",
+    "langue": "français"
+  },
+  {
+    "code livre": 80,
+    "titre": "Inconnus du soleil",
+    "domaine": "astronomie",
+    "prix": 280,
+    "auteur": "Auteur8",
+    "langue": "anglais"
+  },
+  {
+    "code livre": 90,
+    "titre": "Tout sur Jupiter",
+    "domaine": "astronomie",
+    "prix": 900,
+    "auteur": "Auteur9",
+    "langue": "Italien"
+  },
+  {
+    "code livre": 100,
+    "titre": "Circuits electro",
+    "domaine": "electronique",
+    "prix": 1200,
+    "auteur": "Auteur10",
+    "langue": "français"
+  },
+  {
+    "code livre": 110,
+    "titre": "TP Electro",
+    "domaine": "electronique",
+    "prix": 120,
+    "auteur": "Auteur11",
+    "langue": "français"
+  },
+  {
+    "code livre": 120,
+    "titre": "Cours numérique",
+    "domaine": "electronique",
+    "prix": 560,
+    "auteur": "Auteur12",
+    "langue": "Italien"
+  },
+  {
+    "code livre": 130,
+    "titre": "La robotique",
+    "domaine": "electronique",
+    "prix": 680,
+    "auteur": "Auteur13",
+    "langue": "Italien"
+  }
+]

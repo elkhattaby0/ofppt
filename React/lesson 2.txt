@@ -1,0 +1,48 @@
+let personnes = [
+    { nom: "Rami", age: 33, estMember: true },
+    { nom: "Fatihi", age: 24, estMember: false },
+    { nom: "Chakib", age: 45, estMember: true },
+    { nom: "Mounir", age: 37, estMember: false },
+    ];
+
+function Info()
+{
+    let v1 = document.getElementById('name').value
+    let v2 = document.getElementById('age').value
+    let v3 = document.getElementById('member').value
+
+    personnes.push({nom:v1, age:v2, estMember:v3})
+    console.log(personnes)
+}
+
+function dele()
+{
+    let v1 = document.getElementById('name').value
+    personnes = personnes.filter(item=>item.nom!=v1)
+   
+    console.log(personnes)
+}
+
+function age1()
+{
+    let v2 = document.getElementById('age').value
+    personnes = personnes.filter(item=>item.age>v2)
+    console.log(personnes)
+}
+
+function Form()
+{
+    return (
+    <>
+        <p>Name</p><input type="text" id="name" />
+        <p>Age</p><input type="text" id="age" />
+        <p>Member</p><input type="text" id="member" />
+        <br />
+        <button onClick={Info}>Add</button>
+        <button onClick={dele}>Delete</button>
+        <button onClick={age1}>Age</button>
+    </>
+    )
+}
+
+export default Form

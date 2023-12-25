@@ -1,0 +1,84 @@
+delimiter $$
+drop procedure if exists Notes_St;$$
+create PROCEDURE if not EXISTS Notes_St()
+BEGIN
+/*declarer le variables du curseur des stagiaires*/
+DECLARE cs int;
+DECLARE ns varchar(15);
+DECLARE ps varchar(15);
+DECLARE dt date;
+DECLARE nf varchar(15);
+/*************************************************/
+/*declarer le variables du curseur des notes*/
+DECLARE cm int;
+DECLARE coef int;
+DECLARE nm varchar(15);
+DECLARE note float;
+DECLARE nfc float;
+
+/*************************************************/
+
+/*******Les variables du script*/
+DECLARE ligneSt varchar(50);
+DECLARE tout varchar(8000) default '';
+DECLARE ligneNotes varchar(25);
+DECLARE moy float;
+DECLARE sc int;
+declare snfc float;
+DECLARE decision varchar(30);
+/*************************************************/
+/*********************Déclarer le curseur des stagiaires*/
+DECLARE fincurseur1 boolean DEFAULT false;
+DECLARE c1 cursor for select s.code_Stagiaire,s.Nom_Stagiaire,s.Prenom_Stagiaire,s.Datenaissance, f.Nom_Filiere 
+from stagiaire s, filiere f where s.code_filiere= f.code_filiere;
+DECLARE CONTINUE HANDLER FOR not found set fincurseur1:=true;
+/***********************************************************/
+set tout=concat(tout,'**************************************************************\n');
+set tout=concat(tout, 'codeSt\tnom\tprenom\tdatenaiss\tFiliere');
+set tout=concat(tout,'\n**************************************************************\n');
+open c1;
+FETCH c1 into cs,ns,ps,dt, nf;
+while (fincurseur1=false) DO
+	set ligneSt=concat(cs,'\t',ns,'\t',ps,'\t',dt, '\t',nf);
+    set tout=concat(tout,'\n', ligneSt);
+    /*-----------------------------------------------------------------------------*/
+    bloc1: BEGIN
+    	declare  fincurseur2 boolean DEFAULT false;
+    	DECLARE c2 cursor for SELECT m.code_Module,m.Nom_Module, p.Coefficient, n.Note,p.Coefficient * n.Note  from stagiaire s, notation n , module m ,programme 			      p, filiere f where s.code_Stagiaire=n.code_Stagiaire and n.code_Module=m.code_Module and m.code_Module=p.code_Module 
+                and p.code_filiere=f.code_filiere and f.code_filiere=s.code_filiere and s.code_Stagiaire=cs;
+        DECLARE CONTINUE HANDLER for not found set fincurseur2:=true;
+        OPEN c2;
+        set sc=0;
+        set snfc=0;
+        fetch c2 into cm,nm,coef,note,nfc;
+        set tout =concat(tout,'\n----------------------------------------------------------');
+        set tout =concat(tout,'\nCodeMod\tModule\tcoeff\tnote\tNote*Coeff');
+        set tout =concat(tout,'\n----------------------------------------------------------');
+       while(fincurseur2=false) DO
+        	set sc=sc+coef;
+                set snfc=snfc+nfc ;
+        	set ligneNotes= concat(cm,'\t',nm,'\t',coef,'\t',note,'\t',nfc);
+                set tout =concat(tout,'\n',ligneNotes);
+                fetch c2 into cm,nm,coef,note,nfc;
+        end while;
+        close c2;
+  		
+        set moy=snfc/sc;
+        if moy<10 THEN
+        	set decision='Désolé!! redoublant';
+        ELSE
+        	set decision='Félicitation!! réussi';
+       end if;
+        set tout =concat(tout,'\n----------------------------------------------------------');
+        set tout =concat(tout,'\nMoyenne : ',moy,'\t\tDécision : ',decision);
+        set tout =concat(tout,'\n----------------------------------------------------------');
+    end bloc1;
+    set tout =concat(tout,'\n_______________________________________________________________\n');
+    /*-----------------------------------------------------------------------------*/
+    FETCH c1 into cs,ns,ps,dt, nf;
+end while;
+
+select tout as '';
+
+close c1;
+end$$

@@ -1,0 +1,95 @@
+import pymongo;
+server="mongodb://localhost:27017";
+client= pymongo.MongoClient(server);
+database=client["dev203"];
+callDB=database["livres"];
+
+# DISPLAY
+def display():
+    table=callDB.aggregate([])
+    print("codeLivre", '\t', "titre", '\t\t', "domaine", '\t', "prix", '\t', "auteur", '\t', "langue")
+    print("--------------------------------------------------------------------------------------------------------------------------")
+    for i in table:
+        print(i["codeLivre"], '\t', i["titre"], '\t', i["domaine"], '\t', i["prix"], '\t', i["auteur"], '\t', i["langue"])
+
+# AJOUTES
+def add():
+    code = input("Enter Le code : ")
+    table= callDB.find({"codeLivre": int(code)}, {})
+    if len(list(table)) == 1:
+        print('this code already exists')
+    else:
+        titre =input("Enter Le titre : ")
+        domaine =input("Enter Le domaine : ")
+        prix =input("Enter Le prix : ")
+        auteur =input("Enter Le auteur : ")
+        langue =input("Enter Le langue : ")
+        callDB.insert_one({"codeLivre":int(code), "titre":titre, "domaine":domaine, "prix":float(prix), "auteur":auteur, "langue":langue })
+        print("Ajoute avec success")
+
+# DELETE
+def delete():
+    code = input("Enter Le code : ")
+    table= callDB.find({"codeLivre": int(code)}, {})
+    if len(list(table)) == 0:
+        print('this code doesnt exists')
+    else:
+        x = input("Are u sure o/n : ")
+        if x == "o":
+            callDB.delete_one({"codeLivre":int(code)})
+            print('delete avec success')
+        else: 
+            print('Operation est annule')
+
+# UPDATE
+def update():
+    code = input("Enter le code : ")
+    table = callDB.find({"codeLivre": int(code)}, {})
+    if len(list(table)) == 0:
+        print('this code doesnt exists')
+    else:
+        titre =input("Enter new titre : ")
+        domaine =input("Enter new domaine : ")
+        prix =input("Enter new prix : ")
+        auteur =input("Enter new auteur : ")
+        langue =input("Enter new langue : ")
+        callDB.update_one({"codeLivre": int(code)}, {"$set": {"titre":titre, "domaine":domaine, "prix":float(prix), "auteur":auteur, "langue":langue}})
+        print("update avec success")
+
+# SEARCH
+def search():
+    code = input("Enter ur code : ")
+    table = callDB.find({"codeLivre": int(code)})
+    if len(list(table)) == 0:
+        print("doesnt exists")
+    else:
+        table2 = callDB.aggregate([{"$match": {"codeLivre": int(code)}}, {"$project":{"_id":0, "codeLivre":1, "titre":1, "domaine":1, "prix":1, "auteur":1, "langue":1}}])
+        print("codeLivre", '\t', "titre", '\t', "domaine", '\t', "prix", '\t', "auteur", '\t', "langue")
+        for i in table2:
+            print(i["codeLivre"], '\t\t', i["titre"], '\t', i["domaine"], '\t', i["prix"], '\t', i["auteur"], '1\t', i["langue"])
+
+def menu():
+    print("------------------------------------------------------------")
+    print("--------------------------------------------1--Display")
+    print("--------------------------------------------2--Add")
+    print("--------------------------------------------3--Update")
+    print("--------------------------------------------4--Remove")
+    print("--------------------------------------------5--Search")
+    print("--------------------------------------------6--Exit")
+    print("------------------------------------------------------------")
+
+choix=0
+while int(choix) != 6:
+    menu()
+    choix = input('saisir votre choie : ')
+
+    if int(choix) == 1:
+        display()
+    if int(choix) == 2:
+        add()
+    if int(choix) == 3:
+        update()
+    if int(choix) == 4:
+        delete()
+    if int(choix) == 5:
+        search()

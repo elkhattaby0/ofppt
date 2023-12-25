@@ -1,0 +1,1849 @@
+[{
+  "_id": 100,
+  "CEF": "100",
+  "Nom": "elgandi",
+  "prenom": "taha",
+  "Adresse": "adresse 100",
+  "age": "22",
+  "Bac": "SVT",
+  "MoyenneBac": "12",
+  "groupe": "DWFS204",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 101,
+  "CEF": "101",
+  "Nom": "Rdouane",
+  "prenom": "amine",
+  "Adresse": "adresse 101",
+  "age": "21",
+  "Bac": "SVT",
+  "MoyenneBac": "13",
+  "groupe": "DWFS204",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 102,
+  "CEF": "102",
+  "Nom": "hatta",
+  "prenom": "Nourdine",
+  "Adresse": "adresse 102",
+  "age": "21",
+  "Bac": "SM",
+  "MoyenneBac": "14",
+  "groupe": "DWFS201",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 103,
+  "CEF": "103",
+  "Nom": "Elbaze",
+  "prenom": "karim",
+  "Adresse": "adresse 103",
+  "age": "25",
+  "Bac": "SP",
+  "MoyenneBac": "12",
+  "groupe": "DWFS204",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 104,
+  "CEF": "104",
+  "Nom": "Imghi",
+  "prenom": "Mustapha",
+  "Adresse": "adresse 104",
+  "age": "23",
+  "Bac": "SP",
+  "MoyenneBac": "12",
+  "groupe": "DWFS203",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 105,
+  "CEF": "105",
+  "Nom": "boufeqir",
+  "prenom": "hakim",
+  "Adresse": "adresse 103",
+  "age": "24",
+  "Bac": "SP",
+  "MoyenneBac": "13",
+  "groupe": "DWFS203",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 106,
+  "CEF": "106",
+  "Nom": "moutaa",
+  "prenom": "soufiane",
+  "Adresse": "adresse 106",
+  "age": "26",
+  "Bac": "SVT",
+  "MoyenneBac": "11",
+  "groupe": "DWFS203",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 107,
+  "CEF": "107",
+  "Nom": "hanaf",
+  "prenom": "ayoub",
+  "Adresse": "adresse 107",
+  "age": "22",
+  "Bac": "SM",
+  "MoyenneBac": "13",
+  "groupe": "DWFS203",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 108,
+  "CEF": "108",
+  "Nom": "chichou",
+  "prenom": "akram",
+  "Adresse": "adresse 108",
+  "age": "20",
+  "Bac": "SVT",
+  "MoyenneBac": "10",
+  "groupe": "DWFS203",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 109,
+  "CEF": "109",
+  "Nom": "haroud",
+  "prenom": "aissa",
+  "Adresse": "adresse 109",
+  "age": "22",
+  "Bac": "SP",
+  "MoyenneBac": "14",
+  "groupe": "DWFS203",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 110,
+  "CEF": "110",
+  "Nom": "bouchkouj",
+  "prenom": "mohamed",
+  "Adresse": "adresse 110",
+  "age": "20",
+  "Bac": "SVT",
+  "MoyenneBac": "15",
+  "groupe": "DWFS203",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 111,
+  "CEF": "111",
+  "Nom": "tamrout",
+  "prenom": "mina",
+  "Adresse": "adresse 111",
+  "age": "20",
+  "Bac": "SP",
+  "MoyenneBac": "13",
+  "groupe": "DWFS203",
+  "Notes": [
+   {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 112,
+  "CEF": "112",
+  "Nom": "Haiba",
+  "prenom": "Aicha",
+  "Adresse": "adresse 112",
+  "age": "21",
+  "Bac": "SM",
+  "MoyenneBac": "14",
+  "groupe": "DWFS203",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 113,
+  "CEF": "113",
+  "Nom": "jamil",
+  "prenom": "Ilham",
+  "Adresse": "adresse 113",
+  "age": "21",
+  "Bac": "SVT",
+  "MoyenneBac": "14",
+  "groupe": "DWFS203",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 114,
+  "CEF": "114",
+  "Nom": "biroukane",
+  "prenom": "hafid",
+  "Adresse": "adresse 114",
+  "age": "23",
+  "Bac": "SP",
+  "MoyenneBac": "14",
+  "groupe": "DWFS202",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 116,
+  "CEF": "116",
+  "Nom": "abrhnad",
+  "prenom": "anas",
+  "Adresse": "adresse 116",
+  "age": "22",
+  "Bac": "SM",
+  "MoyenneBac": "16",
+  "groupe": "DWFS202",
+  "Notes": [
+   {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 117,
+  "CEF": "117",
+  "Nom": "ESSAADI",
+  "prenom": "Meryem",
+  "Adresse": "adresse 117",
+  "age": "22",
+  "Bac": "SVT",
+  "MoyenneBac": "16",
+  "groupe": "DWFS202",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 119,
+  "CEF": "119",
+  "Nom": "bouhia",
+  "prenom": "yasser",
+  "Adresse": "adresse 119",
+  "age": "22",
+  "Bac": "SM",
+  "MoyenneBac": "16",
+  "groupe": "DWFS202",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 118,
+  "CEF": "118",
+  "Nom": "Bary",
+  "prenom": "Haytam",
+  "Adresse": "adresse 118",
+  "age": "21",
+  "Bac": "SVT",
+  "MoyenneBac": "14",
+  "groupe": "DWFS202",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 121,
+  "CEF": "121",
+  "Nom": "AHCHOUCH",
+  "prenom": "MOHAMED",
+  "Adresse": "adresse 121",
+  "age": "23",
+  "Bac": "SM",
+  "MoyenneBac": "12",
+  "groupe": "DWFS203",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 122,
+  "CEF": "122",
+  "Nom": "Imghi",
+  "prenom": "Mustapha",
+  "Adresse": "adresse 122",
+  "age": "23",
+  "Bac": "SP",
+  "MoyenneBac": "12",
+  "groupe": "DWFS203",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 123,
+  "CEF": "123",
+  "Nom": "ZINEDDINE",
+  "prenom": "BARDOUD",
+  "Adresse": "adresse 123",
+  "age": "23",
+  "Bac": "SP",
+  "MoyenneBac": "12",
+  "groupe": "DWFS202",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 124,
+  "CEF": "124",
+  "Nom": "sadouk",
+  "prenom": "rabab",
+  "Adresse": "adresse 124",
+  "age": "23",
+  "Bac": "SP",
+  "MoyenneBac": "12",
+  "groupe": "DWFS202",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 125,
+  "CEF": "125",
+  "Nom": "ISMEG",
+  "prenom": "SAID",
+  "Adresse": "adresse 125",
+  "age": "23",
+  "Bac": "SM",
+  "MoyenneBac": "12",
+  "groupe": "DWFS202",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 126,
+  "CEF": "126",
+  "Nom": "elfaqir",
+  "prenom": "nour eddine",
+  "Adresse": "adresse 126",
+  "age": "23",
+  "Bac": "SP",
+  "MoyenneBac": "12",
+  "groupe": "DWFS202",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 127,
+  "CEF": "127",
+  "Nom": "echarqaoui",
+  "prenom": "youssef",
+  "Adresse": "adresse 127",
+  "age": "23",
+  "Bac": "SP",
+  "MoyenneBac": "12",
+  "groupe": "DWFS203",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 128,
+  "CEF": "128",
+  "Nom": "HARIS",
+  "prenom": "AYOUB",
+  "Adresse": "adresse 128",
+  "age": "23",
+  "Bac": "SP",
+  "MoyenneBac": "10",
+  "groupe": "DWFS203",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 129,
+  "CEF": "129",
+  "Nom": "bousaid",
+  "prenom": "soulaimane",
+  "Adresse": "adresse 129",
+  "age": "23",
+  "Bac": "SM",
+  "MoyenneBac": "12",
+  "groupe": "DWFS203",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 130,
+  "CEF": "130",
+  "Nom": "imgharen",
+  "prenom": "yassine",
+  "Adresse": "adresse 130",
+  "age": "23",
+  "Bac": "SP",
+  "MoyenneBac": "12",
+  "groupe": "DWFS203",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 132,
+  "CEF": "132",
+  "Nom": "guellouch",
+  "prenom": "zakaria",
+  "Adresse": "adresse 132",
+  "age": "23",
+  "Bac": "SP",
+  "MoyenneBac": "12",
+  "groupe": "DWFS203",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 131,
+  "CEF": "131",
+  "Nom": "ahssine",
+  "prenom": "abdellatif",
+  "Adresse": "adresse 128",
+  "age": "23",
+  "Bac": "SP",
+  "MoyenneBac": "10",
+  "groupe": "DWFS202",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 133,
+  "CEF": "133",
+  "Nom": "ELHATAB",
+  "prenom": "AYOUB",
+  "Adresse": "adresse 133",
+  "age": "23",
+  "Bac": "SP",
+  "MoyenneBac": "10",
+  "groupe": "DWFS203",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 151,
+  "CEF": "151",
+  "Nom": "jalloul",
+  "prenom": "laila",
+  "Adresse": "adresse 151",
+  "age": "23",
+  "Bac": "SP",
+  "MoyenneBac": "12",
+  "groupe": "DWFS201",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 150,
+  "CEF": "180",
+  "Nom": "ouchen",
+  "prenom": "soumiya",
+  "Adresse": "adresse 150",
+  "age": "23",
+  "Bac": "SP",
+  "MoyenneBac": "12",
+  "groupe": "DWFS201",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 160,
+  "CEF": "160",
+  "Nom": "oukim",
+  "prenom": "abdellah",
+  "Adresse": "adresse 160",
+  "age": "23",
+  "Bac": "SVT",
+  "MoyenneBac": "15",
+  "groupe": "DWFS201",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 161,
+  "CEF": "161",
+  "Nom": "moussan",
+  "prenom": "abderrahim",
+  "Adresse": "adresse 161",
+  "age": "23",
+  "Bac": "SV",
+  "MoyenneBac": "12",
+  "groupe": "DWFS201",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 162,
+  "CEF": "162",
+  "Nom": "el bacha",
+  "prenom": "mohamed",
+  "Adresse": "adresse 162",
+  "age": "20",
+  "Bac": "SP",
+  "MoyenneBac": "13",
+  "groupe": "DWFS201",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 163,
+  "CEF": "163",
+  "Nom": "tabaei",
+  "prenom": "amine",
+  "Adresse": "adresse 163",
+  "age": "22",
+  "Bac": "SVT",
+  "MoyenneBac": "12",
+  "groupe": "DWFS202",
+  "Notes": [
+   {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 164,
+  "CEF": "164",
+  "Nom": "benhassoune",
+  "prenom": "ilyas",
+  "Adresse": "adresse 164",
+  "age": "19",
+  "Bac": "SVT",
+  "MoyenneBac": "12",
+  "groupe": "DWFS202",
+  "Notes": [
+   {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 165,
+  "CEF": "165",
+  "Nom": "abrar",
+  "prenom": "mohamed",
+  "Adresse": "adresse 165",
+  "age": "22",
+  "Bac": "SVT",
+  "MoyenneBac": "12",
+  "groupe": "DWFS202",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 166,
+  "CEF": "166",
+  "Nom": "el kermouchi",
+  "prenom": "khalil",
+  "Adresse": "adresse 166",
+  "age": "23",
+  "Bac": "SVT",
+  "MoyenneBac": "12",
+  "groupe": "DWFS203",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 167,
+  "CEF": "167",
+  "Nom": "el Boufdil",
+  "prenom": "Abdelmajid",
+  "Adresse": "adresse 167",
+  "age": "23",
+  "Bac": "SM",
+  "MoyenneBac": "12",
+  "groupe": "DWFS203",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 168,
+  "CEF": "168",
+  "Nom": "Belfaqir",
+  "prenom": "Nisrine",
+  "Adresse": "adresse 168",
+  "age": "23",
+  "Bac": "SP",
+  "MoyenneBac": "12",
+  "groupe": "DWFS203",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 169,
+  "CEF": "169",
+  "Nom": "chmimo",
+  "prenom": "hanane",
+  "Adresse": "adresse 169",
+  "age": "23",
+  "Bac": "SVT",
+  "MoyenneBac": "14",
+  "groupe": "DWFS203",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 152,
+  "CEF": "152",
+  "Nom": "baka",
+  "prenom": "abdelaziz",
+  "Adresse": "adresse 152",
+  "age": "23",
+  "Bac": "SP",
+  "MoyenneBac": "12",
+  "groupe": "DWFS203",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 153,
+  "CEF": "153",
+  "Nom": "FELOUSS",
+  "prenom": "Meryam",
+  "Adresse": "adresse 153",
+  "age": "23",
+  "Bac": "SP",
+  "MoyenneBac": "12",
+  "groupe": "DWFS203",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 154,
+  "CEF": "154",
+  "Nom": "el fourrate",
+  "prenom": "brahim",
+  "Adresse": "adresse 151",
+  "age": "23",
+  "Bac": "SP",
+  "MoyenneBac": "12",
+  "groupe": "DWFS204",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 155,
+  "CEF": "155",
+  "Nom": "el zarah",
+  "prenom": "zakaria",
+  "Adresse": "adresse 151",
+  "age": "23",
+  "Bac": "SP",
+  "MoyenneBac": "13",
+  "groupe": "DWFS204",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 195,
+  "CEF": "195",
+  "Nom": "motahhir",
+  "prenom": "hamza",
+  "Adresse": "adresse 195",
+  "age": "20",
+  "Bac": "SM",
+  "MoyenneBac": "13",
+  "groupe": "DWFS204",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 156,
+  "CEF": "156",
+  "Nom": "boulgham",
+  "prenom": "el houcinea",
+  "Adresse": "adresse 156",
+  "age": "23",
+  "Bac": "SM",
+  "MoyenneBac": "13",
+  "groupe": "DWFS204",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 157,
+  "CEF": "157",
+  "Nom": "ouldelabbar",
+  "prenom": "noamane",
+  "Adresse": "adresse 157",
+  "age": "23",
+  "Bac": "SVT",
+  "MoyenneBac": "13",
+  "groupe": "DWFS204",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 158,
+  "CEF": "158",
+  "Nom": "zanine",
+  "prenom": "mohammed",
+  "Adresse": "adresse 158",
+  "age": "22",
+  "Bac": "SVT",
+  "MoyenneBac": "12",
+  "groupe": "DWFS204",
+  "Notes": [
+   {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 159,
+  "CEF": "159",
+  "Nom": "saidi",
+  "prenom": "mariyam",
+  "Adresse": "adresse 159",
+  "age": "22",
+  "Bac": "SVT",
+  "MoyenneBac": "12",
+  "groupe": "DWFS204",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 190,
+  "CEF": "190",
+  "Nom": "igouramen",
+  "prenom": "mohamed",
+  "Adresse": "adresse 190",
+  "age": "22",
+  "Bac": "SVT",
+  "MoyenneBac": "12",
+  "groupe": "DWFS204",
+  "Notes": [
+   {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 191,
+  "CEF": "191",
+  "Nom": "essafrani",
+  "prenom": "younes",
+  "Adresse": "adresse 191",
+  "age": "22",
+  "Bac": "SVT",
+  "MoyenneBac": "12",
+  "groupe": "DWFS204",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 192,
+  "CEF": "192",
+  "Nom": "essafrani",
+  "prenom": "ilias",
+  "Adresse": "adresse 192",
+  "age": "22",
+  "Bac": "SVT",
+  "MoyenneBac": "12",
+  "groupe": "DWFS204",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 193,
+  "CEF": "193",
+  "Nom": "ait jddi",
+  "prenom": "abdeljbbar",
+  "Adresse": "adresse 193",
+  "age": "20",
+  "Bac": "SVT",
+  "MoyenneBac": "12",
+  "groupe": "DWFS204",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 194,
+  "CEF": "194",
+  "Nom": "jarouid",
+  "prenom": "oussama",
+  "Adresse": "adresse 194",
+  "age": "22",
+  "Bac": "SVT",
+  "MoyenneBac": "12",
+  "groupe": "DWFS204",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 200,
+  "CEF": "200",
+  "Nom": "ouaami",
+  "prenom": "SAAD",
+  "Adresse": "adresse 200",
+  "age": "23",
+  "Bac": "SVT",
+  "MoyenneBac": "12",
+  "groupe": "DWFS204",
+  "Notes": [
+   {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 201,
+  "CEF": "201",
+  "Nom": "baaziz",
+  "prenom": "MOSSAAB",
+  "Adresse": "adresse 201",
+  "age": "23",
+  "Bac": "SP",
+  "MoyenneBac": "12",
+  "groupe": "DWFS204",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 202,
+  "CEF": "202",
+  "Nom": "amrah",
+  "prenom": "salah-eddine",
+  "Adresse": "adresse 202",
+  "age": "2",
+  "Bac": "SP",
+  "MoyenneBac": "10",
+  "groupe": "DWFS204",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 203,
+  "CEF": "203",
+  "Nom": "afaiz",
+  "prenom": "boubakr",
+  "Adresse": "adresse 203",
+  "age": "23",
+  "Bac": "SP",
+  "MoyenneBac": "12",
+  "groupe": "DWFS204",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 204,
+  "CEF": "204",
+  "Nom": "bouaoud",
+  "prenom": "ilham",
+  "Adresse": "adresse 204",
+  "age": "23",
+  "Bac": "SP",
+  "MoyenneBac": "12",
+  "groupe": "DWFS204",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 205,
+  "CEF": "205",
+  "Nom": "ahnouch",
+  "prenom": "mohamed",
+  "Adresse": "adresse 205",
+  "age": "23",
+  "Bac": "SVT",
+  "MoyenneBac": "12",
+  "groupe": "DWFS204",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 206,
+  "CEF": "206",
+  "Nom": "wahbi",
+  "prenom": "naima",
+  "Adresse": "adresse 206",
+  "age": "23",
+  "Bac": "SM",
+  "MoyenneBac": "14",
+  "groupe": "DWFS204",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 207,
+  "CEF": "207",
+  "Nom": "anayouss",
+  "prenom": "latifa",
+  "Adresse": "adresse 207",
+  "age": "23",
+  "Bac": "SM",
+  "MoyenneBac": "14",
+  "groupe": "DWFS204",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 208,
+  "CEF": "208",
+  "Nom": "shabi",
+  "prenom": "zakariae",
+  "Adresse": "adresse 208",
+  "age": "23",
+  "Bac": "SM",
+  "MoyenneBac": "14",
+  "groupe": "DWFS204",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 210,
+  "CEF": "210",
+  "Nom": "zanine",
+  "prenom": "mohammed",
+  "Adresse": "adresse 210",
+  "age": "23",
+  "Bac": "SP",
+  "MoyenneBac": "10",
+  "groupe": "DWFS204",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 211,
+  "CEF": "211",
+  "Nom": "igouramen",
+  "prenom": "mohamed",
+  "Adresse": "adresse 211",
+  "age": "23",
+  "Bac": "SVT",
+  "MoyenneBac": "12",
+  "groupe": "DWFS202",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 220,
+  "CEF": "220",
+  "Nom": "bouzidi",
+  "prenom": "hasna",
+  "Adresse": "adresse 220",
+  "age": "23",
+  "Bac": "SP",
+  "MoyenneBac": "12",
+  "groupe": "DWFS201",
+  "Notes": [
+   {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 221,
+  "CEF": "221",
+  "Nom": "EL MEZDIGUY",
+  "prenom": "SALMA",
+  "Adresse": "adresse 221",
+  "age": "23",
+  "Bac": "SVT",
+  "MoyenneBac": "12",
+  "groupe": "DWFS201",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 223,
+  "CEF": "223",
+  "Nom": "alloune",
+  "prenom": "yasmine",
+  "Adresse": "adresse 223",
+  "age": "23",
+  "Bac": "SP",
+  "MoyenneBac": "12",
+  "groupe": "DWFS201",
+  "Notes": [
+   {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 230,
+  "CEF": "230",
+  "Nom": "bouzidi",
+  "prenom": "hasna",
+  "Adresse": "adresse 230",
+  "age": "23",
+  "Bac": "SP",
+  "MoyenneBac": "12",
+  "groupe": "DWFS201",
+  "Notes": [
+   {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 224,
+  "CEF": "224",
+  "Nom": "AIT elkaid",
+  "prenom": "Yaùna",
+  "Adresse": "adresse 224",
+  "age": "23",
+  "Bac": "SVT",
+  "MoyenneBac": "12",
+  "groupe": "DWFS201",
+  "Notes": [
+   {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 222,
+  "CEF": "222",
+  "Nom": "ABOUGAM",
+  "prenom": "HAMZA",
+  "Adresse": "adresse 222",
+  "age": "23",
+  "Bac": "SP",
+  "MoyenneBac": "12",
+  "groupe": "DWFS201",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 233,
+  "CEF": "233",
+  "Nom": "adjar",
+  "prenom": "zakaria",
+  "Adresse": "adresse 233",
+  "age": "23",
+  "Bac": "SP",
+  "MoyenneBac": "12",
+  "groupe": "DWFS201",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+},{
+  "_id": 235,
+  "CEF": "235",
+  "Nom": "ait jeddi",
+  "prenom": "abdeljebbar",
+  "Adresse": "adresse 235",
+  "age": "23",
+  "Bac": "SP",
+  "MoyenneBac": "12",
+  "groupe": "DWFS201",
+  "Notes": [
+    {
+       "module":"M101:CSharp","note": 13
+    },
+    {
+       "module":"M102:CSS3","note": 14
+    },
+    {
+      "module":"M103:Jquery","note": 13
+    },
+    {
+      "module":"M104:Analyse UML","note": 15
+    }
+  ]
+}]

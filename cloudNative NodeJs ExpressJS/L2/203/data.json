@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "nom":"barodi",
+        "prenom":"boubaker",
+        "email":"barodi@gmail.com",
+        "city":"dacheira"     
+    },
+    {
+        "id":2,
+        "nom":"el khattaby",
+        "prenom":"lahoucine",
+        "email":"blkhtabi@gmail.com",
+        "city":"dacheira"     
+    },
+    {
+        "id":3,
+        "nom":"beladda",
+        "prenom":"hassan",
+        "email":"hassan@gmail.com",
+        "city":"inzegan"     
+    },
+    {
+        "id":4,
+        "nom":"tiza",
+        "prenom":"asma",
+        "email":"tiza@gmail.com",
+        "city":"agadir"     
+    }
+]

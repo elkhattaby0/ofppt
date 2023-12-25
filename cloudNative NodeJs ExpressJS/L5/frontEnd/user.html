@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1></h1>
+    <br>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Prenom</th>
+            <th>City</th>
+            <th>Email</th>
+        </tr>
+    </table>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" ></script>
+    <script>
+        $(document).ready(()=> {
+            const token = localStorage.getItem('token')
+            const admin = JSON.parse(localStorage.getItem('admin'))
+            if(admin) {
+                $('h1').text('Hi '+admin.name)
+            }
+            var settings = {
+                "url": "http://127.0.0.1:3030/",
+                "method": "GET",
+                "headers": {
+                    "token": localStorage.getItem('token'),
+                    "email": admin.email
+                },
+            };
+
+            $.ajax(settings).done(function (response) {
+                console.log(response);
+                response.map((el, index) => {
+                    $('table').append(
+                        $('<tr>').append($('<td>').text(el.name), $('<td>').text(el.prenom),  $('<td>').text(el.city),  $('<td>').text(el.email))
+                    )
+                })
+            }).fail(()=> {
+                window.location = 'index.html'
+            });
+        })
+    </script>
+</body>
+</html>

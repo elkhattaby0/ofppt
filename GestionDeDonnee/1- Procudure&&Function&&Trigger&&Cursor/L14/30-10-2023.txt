@@ -1,0 +1,50 @@
+delimiter $$
+drop trigger if exists archivage;$$
+CREATE TRIGGER if not EXISTS archivage BEFORE delete on niveau for each ROW
+BEGIN
+/*declarer les variables du curseur des classes*/
+DECLARE cc int;
+DECLARE cniv int;
+DECLARE Eff int;
+DECLARE nc varchar(15);
+/*archiver le niveau*/
+/*declarer les variables du curseur des stagiaires*/
+DECLARE cs int;
+DECLARE ns varchar(15);
+DECLARE ps varchar(15);
+DECLARE es varchar(15);
+DECLARE ccl int;
+
+/*archiver les classes du niveau à supprimer */
+DECLARE fincurseur1 boolean DEFAULT false;
+DECLARE c1 CURSOR for select * from classe where code_niveau=old.code_niveau;
+DECLARE CONTINUE HANDLER for not found set fincurseur1:=true;
+
+/*archiver le niveau*/
+INSERT INTO arcive_niveau select old.code_Niveau, old.intitule, old.Frais_inscription;
+
+open c1;
+fetch c1 into cc,nc,eff,cniv;
+WHILE(fincurseur1 = false) do
+	INSERT into archive_classe VALUES(cc,nc,eff,cniv);
+    /*---------------------Archuver les stagiaires-----------------*/
+     bloc2:begin 
+    DECLARE fincurseur2 boolean DEFAULT false;
+    DECLARE c2 cursor for select * from stagiaire where code_classe=cc;
+    DECLARE CONTINUE HANDLER for not found set fincurseur2:=true;
+    
+    OPEN c2;
+    FETCH c2 into cs,ns, ps,es,ccl;
+    WHILE(fincurseur2 =false) DO 
+    	 INSERT into archive_stagiaire values(cs,ns, ps,es,ccl);
+       
+         FETCH c2 into cs,ns, ps,es,ccl;
+    end while;
+     delete from stagiaire where code_classe=cc;
+    close c2;
+    end bloc2;
+    /*--------------------------------------------------------------*/
+	fetch c1 into cc,nc,eff,cniv;
+end WHILE;
+delete from classe where code_niveau=old.code_niveau;
+end$$

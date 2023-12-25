@@ -1,0 +1,8 @@
+
+db.STAGIAIRES.find({​​ $and: [{​​"groupe":"DWFS203"}​​ , {​​"age":  {​​$gt : "20"}​​}​​,{​​ "age" : {​​$lt : "24"}​​}​​ ]  }​​ , {​​"_id":0 ,"CEF":1 , "Nom":1 , "prenom":1,"age":1, "groupe":1}​​ )
+
+
+    Forcer de convertir les données en numérique avant  de les comparer 
+db.module.find().sort({​​"codeModule":1}​​).collation( {​​ locale: 'fr',  numericOrdering: true}​​ )
+​[10:41 AM] AHMED AIT OUFKIR
+    db.module.find().sort({​​"codeModule":1}​​).collation( {​​ locale: 'fr',  numericOrdering: true}​​ )

@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name":"zakaria",
+        "city":"agadir",
+        "Country":"morocco"
+    },
+    {
+        "id":2,
+        "name":"fatima",
+        "city":"mekens",
+        "Country":"morocco"
+    },
+    {
+        "id":3,
+        "name":"hassan",
+        "city":"tanatn",
+        "Country":"egypt"
+    },
+    {
+        "id":4,
+        "name":"alex",
+        "city":"madrid",
+        "Country":"spain"
+    }
+]

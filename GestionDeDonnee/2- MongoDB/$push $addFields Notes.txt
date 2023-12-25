@@ -1,0 +1,65 @@
+Pour créer un document stagiaire complet:
+db.stagiaires.insertOne( {_id:1000, "CEF":1000,"Nom":"nom1000", 
+  "prenom":"pre1000","Adresse":"Adre1000", "age":28, "Bac":"SP","MoyenneBac":14, 
+  "groupe":"DWFS202",
+  "Notes":[
+  {"module":"M101:CSharp" , "note":12} ,
+  {"module":"M102:CSS3", "note":15} ,
+  {"module":"M103:Jquery" ,   "note":13} , 
+  {"module":"M104:Analyse UML", "note":17} ]
+})
+
+
+Parfois on est obligé de créer un document avec des données en moins 
+
+	db.stagiaires.insertOne( {_id:2000, "CEF":2000,"Nom":"nom2000", 
+			  "prenom":"pre2000","Adresse":"Adre2000", 
+			  "Bac":"SP","MoyenneBac":14 
+	})
+
+pour ajouter le champ groupe à ce stagiaire num2000
+	filtre={"CEF":2000}
+	new_val={ $set :{"groupe":"DWFS202"}}
+	db.stagiaires.updateOne(filtre , new_val)
+
+pour ajouter le champ age à ce stagiaire num2000
+	filtre={"CEF":2000}
+	new_val={ $set :{"age":"26"}}
+	db.stagiaires.updateOne(filtre , new_val)
+
+Pour ajouter la note du module 101:CSgharp à ce stagiaire:
+	filtre={"CEF":2000}
+	new_val={ $push : { "Notes" : {"Module":"M101:CSharp" , "note":10 }}}
+	db.stagiaires.updateOne(filtre , new_val)
+
+Pour ajouter la note du module M102:CSS3 à ce stagiaire:
+	filtre={"CEF":2000}
+	new_val={ $push : { "Notes" : {"Module":"M102:CSS3" , "note":16 }}}
+	db.stagiaires.updateOne(filtre , new_val)
+
+filtre={"CEF":2000}
+	new_val={ $push : { "Notes" : {"Module":"M103:Jquery" , "note":14}}}
+	db.stagiaires.updateOne(filtre , new_val)
+
+***********************************************
+calculer la moyenne des stagiaires
+db.stagiaires.aggregate([
+  { $addFields : { "moyenneGenerale" : { $avg : "$Notes.note"} }},
+  { $project : { "_id":0 , "Nom":1 , "prenom" : 1 , "moyenneGenerale" : 1} },
+])
+
+calculer la moyenne des stagiaires triés par moyenne en ordre décroissant
+db.stagiaires.aggregate([
+  { $addFields : { "moyenneGenerale" : { $avg : "$Notes.note"} }},
+  { $project : { "_id":0 , "Nom":1 , "prenom" : 1 , "moyenneGenerale" : 1} },
+  { $sort : { "moyenneGenerale" : -1} }
+])
+
+
+afficher le stagiaire ayant la moyenne la plus élevée
+db.stagiaires.aggregate([
+  { $addFields : { "moyenneGenerale" : { $avg : "$Notes.note"} }},
+  { $project : { "_id":0 , "Nom":1 , "prenom" : 1 , "moyenneGenerale" : 1} },
+  { $sort : { "moyenneGenerale" : -1} },
+  { $limit  : 1}
+])
