@@ -6,5 +6,3 @@ Annee: 2023-24 <br/>
 
 
 Soon i'll add efms
-
-LAHOUCINE EL KHATTABY
